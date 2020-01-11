@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Pokemon App" />
+    <img alt="Vue logo" src="./assets/pokemon.jpg" width="600" height="400" />
+    <PokemonSearch msg="Welcome to Your Pokemon App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import PokemonSearch from './components/PokemonSearch.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    PokemonSearch
   }
 };
 </script>
